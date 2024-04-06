@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <div class="container">
+      <h1 class="title">TO DO LIST</h1>
+
+      <div class="container_input">
+        <input
+          id="input_task"
+          type="text"
+          class="input_insert"
+          value="Введите задачу"
+        />
+        <button id="addButton" onclick="addTask()" class="container_button">
+          Добавить
+        </button>
+      </div>
+
+      <ul id="parent" onclick="checkTask()" >
+      </ul>
+    </div>
+    
+    <script src="./index.js"></script>
+  </body>
+</html>
